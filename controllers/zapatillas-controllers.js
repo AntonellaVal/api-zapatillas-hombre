@@ -14,7 +14,7 @@ const getzapatillasById = (req = request , res = response) =>{
     let id = parseInt(req, params , id);
     let zapatillaBuscar ="";
 
-    zpatillaBuscar = equipos.find((zapatillas) =>{
+    zpatillaBuscar = zapatillas.find((zapatillas) =>{
         return zapatillas.id === id;
     })
 
