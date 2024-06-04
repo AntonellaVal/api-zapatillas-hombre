@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 const port = 3001;
 
-const {getzapatillas , getzapatillasById} = require("./contollers/eqiposcontroller")
+const {getzapatillas , getzapatillasById} = require("./controllers/zapatillas-controllers")
 
 app.get("/", getzapatillas);
 
